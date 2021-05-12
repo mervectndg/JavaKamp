@@ -1,0 +1,31 @@
+package hW5D.eCommmerce.entities.dto;
+
+import hW5D.eCommmerce.entities.abstracts.Dto;
+
+public class LoginDto implements Dto {
+	private String eMail;
+	private String password;
+
+	public LoginDto(String eMail, String password) {
+		super();
+		this.eMail = eMail;
+		this.password = password;
+	}
+
+	public String geteMail() {
+		return eMail;
+	}
+
+	public void seteMail(String eMail) {
+		this.eMail = eMail;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}
